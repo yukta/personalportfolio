@@ -151,7 +151,7 @@ export function ResumeSite() {
               Enterprise product platform powered by Java, Spring Boot and AWS with ETL and integration pipelines
               designed for scale.
             </p>
-            <div className="case-tags">
+            <div className="case-stack">
               <span>AWS</span>
               <span>EKS</span>
               <span>Kafka</span>
