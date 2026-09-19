@@ -10,13 +10,18 @@ export const metadata: Metadata = {
     shortcut: '/icon.svg',
     apple: '/icon.svg',
   },
+  openGraph: {
+    title: 'Abhay Raj Malhotra — Software Engineer / Architect',
+    description: 'Personal resume of Abhay Raj Malhotra, a senior software engineer specializing in backend engineering, cloud architecture, distributed systems and AI.',
+    images: ['/icon.svg'],
+  },
 }
 
 export const viewport: Viewport = {
   colorScheme: 'light dark',
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
+    { media: '(prefers-color-scheme: light)', color: '#f1efe7' },
+    { media: '(prefers-color-scheme: dark)', color: '#151918' },
   ],
 }
 
