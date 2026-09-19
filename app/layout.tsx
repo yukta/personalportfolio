@@ -5,23 +5,10 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Abhay Raj Malhotra — Software Engineer / Architect',
   description: 'Personal resume of Abhay Raj Malhotra, a senior software engineer specializing in backend engineering, cloud architecture, distributed systems and AI.',
-  generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
   },
 }
 
