@@ -119,7 +119,7 @@ export function ResumeSite() {
           animate={reduceMotion ? undefined : { opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.8 }}
         >
-          <span>08+ years<br />engineering</span>
+          <span>09+ years<br />engineering</span>
           <span>01 — 04<br />scroll to explore</span>
         </motion.div>
 
@@ -163,7 +163,7 @@ export function ResumeSite() {
       <Reveal>
         <section id="experience" className="experience-section section-pad">
           <div className="section-label"><span>03</span><span>Experience</span></div>
-          <div className="experience-header"><h2>Eight years of <em>building.</em></h2><p>Selected chapters from a career spent turning hard technical problems into dependable systems.</p></div>
+          <div className="experience-header"><h2>Nine years of <em>building.</em></h2><p>Selected chapters from a career spent turning hard technical problems into dependable systems.</p></div>
         </section>
       </Reveal>
 
