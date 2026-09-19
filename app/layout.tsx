@@ -3,16 +3,43 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Abhay Raj Malhotra — Software Engineer / Architect',
-  description: 'Personal resume of Abhay Raj Malhotra, a senior software engineer specializing in backend engineering, cloud architecture, distributed systems and AI.',
+  title: 'Abhay Raj Malhotra | Software Engineer & Architect',
+  description: 'Abhay Raj Malhotra is a senior software engineer and software architect specializing in backend engineering, cloud architecture, AWS, Java, Spring Boot, distributed systems, and AI.',
+  keywords: [
+    'Abhay Raj Malhotra',
+    'Abhay Malhotra',
+    'Abhay',
+    'software engineer Abhay',
+    'software architect Abhay Raj Malhotra',
+    'backend engineer',
+    'cloud architect',
+    'Java engineer',
+    'Spring Boot engineer',
+    'AWS engineer',
+    'Kubernetes engineer',
+    'distributed systems engineer',
+    'AI engineer',
+  ],
+  authors: [{ name: 'Abhay Raj Malhotra' }],
+  creator: 'Abhay Raj Malhotra',
+  publisher: 'Abhay Raj Malhotra',
+  robots: { index: true, follow: true },
   icons: {
     icon: '/icon.svg',
     shortcut: '/icon.svg',
     apple: '/icon.svg',
   },
   openGraph: {
-    title: 'Abhay Raj Malhotra — Software Engineer / Architect',
-    description: 'Personal resume of Abhay Raj Malhotra, a senior software engineer specializing in backend engineering, cloud architecture, distributed systems and AI.',
+    type: 'website',
+    title: 'Abhay Raj Malhotra | Software Engineer & Architect',
+    description: 'Abhay Raj Malhotra is a senior software engineer and software architect specializing in backend engineering, cloud architecture, AWS, Java, Spring Boot, distributed systems, and AI.',
+    siteName: 'Abhay Raj Malhotra',
+    images: ['/icon.svg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Abhay Raj Malhotra | Software Engineer & Architect',
+    description: 'Abhay Raj Malhotra is a senior software engineer and software architect specializing in backend engineering, cloud architecture, AWS, Java, Spring Boot, distributed systems, and AI.',
     images: ['/icon.svg'],
   },
 }
